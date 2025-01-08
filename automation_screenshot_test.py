@@ -43,7 +43,7 @@ def scroll_and_screenshot(main_screenshot_area, main_output_folder, main_num_scr
 
 if __name__ == "__main__":
     area = (647, 179, 1252-647, -(179-976))
-    output = "C:/Users/gm347/Downloads"
+    output = "Output Folder"
     num = "abc"
     scroll = -3
 
