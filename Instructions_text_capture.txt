@@ -1,0 +1,23 @@
+This GUI application allows you to extract text from images in .jpg or .png format using the Tesseract OCR engine. The extracted text is saved as a .txt file in a destination folder. The extracted text will be saved in the destination folder as a .txt file with the specified name. Each image in the folder will have its text saved sequentially, preceded by a label such as "Screenshot 1," "Screenshot 2," etc.
+
+How to Use the Application
+
+Select the Image Folder: Click the "Select image folder" button. Choose the folder containing your .jpg or .png images. The path to the selected folder will appear next to the button.
+
+Select the Destination Folder: Click the "Select destination folder" button. Choose the folder where the resulting text file will be saved. The path to the selected folder will appear next to the button.
+
+Name the Output File: Enter a name for the output .txt file in the "Name of file" entry box. You do not need to include the .txt extension—it will be added automatically.
+
+Start the Conversion Process: Click the "Start conversion" button. The application will process the images, extract the text, and save it as a .txt file in the destination folder.
+
+Notes and Warnings
+
+- Configuration File: Ensure you have a Configuration.txt file that specifies the path to the Tesseract OCR engine. Without this file, the application cannot perform text extraction.
+
+- Output File Naming: If a file with the same name already exists in the destination folder, the application will append a unique number (e.g., _1, _2) to the new file's name to avoid overwriting.
+
+Errors and Troubleshooting:
+
+- If the Tesseract OCR engine is not installed or the configuration file is missing, the application will display a "File not Found Error."
+
+- If any other error occurs during processing, an "OS Error" will appear. Ensure the input images are accessible and valid.

@@ -1,0 +1,16 @@
+This tool allows you to convert images in .jpg format from a selected folder into a PDF document and save it in a desired destination folder.
+
+Steps:
+
+1.- Select the Image Folder: Click on the "Select image folder" button. A dialog window will open to browse your computer. Choose the folder that contains the .jpg images you want to convert. The selected folder's name will appear next to the button.
+
+2.- Select the Destination Folder: Click on the "Select destination folder" button. Browse to the folder where you want the converted PDF file to be saved. The selected folder's name will appear next to the button.
+
+3.- Name the Output PDF: In the text entry box labeled "Write the name of the file", type the desired name for the PDF file. You do not need to include .pdf in the file name; it will automatically be added.
+
+4.- Start the Conversion: Click on the "Start conversion" button.
+
+The tool will combine all .jpg images in the selected folder, and save the resulting PDF file in the chosen destination folder. If the file already exists, the tool will add a suffix (_1, _2, etc.) to avoid overwriting.
+
+Notes:
+Ensure that the image folder contains only .jpg images, as other file formats will be ignored.

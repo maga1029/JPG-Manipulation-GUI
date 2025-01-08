@@ -1,0 +1,25 @@
+This tool allows you to automate taking screenshots of a specific window area on your screen while scrolling.
+
+Step-by-Step Guide
+
+1. Calibrate the Window Area: Click on the "Calibrate Window Area" button. After hearing the first beep sound, place your cursor at the top-left corner of the area you want to capture. Wait for the second beep sound after 10 seconds, move your cursor to the bottom-right corner of the area you want to capture. The calibration will record the window dimensions. If successful, the labels next to the button will update with the coordinates and dimensions of the area. If the calibration fails, ensure you follow the beeps and try again.
+
+2. Calibrate Mouse Movement: Click on the "Calibrate Mouse Movement" button. After a short beep, start scrolling the mouse up or down for the next 10 seconds. The tool will record the total scroll distance. If successful, the label next to the button will update with the scroll amount. If the calibration fails, make sure you scroll your mouse while the tool is active and try again.
+
+3. Select a Destination Folder: Click on the "Select Destination Folder" button. Choose the folder where the screenshots will be saved.
+
+4. Specify the Number of Screenshots: In the text entry field labeled "Number of screenshots", enter the total number of screenshots you want to take. Ensure the number is a positive integer.
+
+5. Start the Screenshot Process: Once all calibrations are complete and a destination folder is selected, click the "Start" button. The tool will wait 10 seconds before beginning the screenshot process and scroll the calibrated distance and take the specified number of screenshots. After the process is completed, a message will confirm that the screenshots have been captured.
+
+Notes:
+
+Make sure to complete all calibrations and settings before starting the process.
+
+If an error occurs, ensure the following: The calibration steps were completed successfully:
+
+-A valid destination folder was selected.
+
+-A positive integer was entered for the number of screenshots.
+
+-The tool is optimized for GUI environments. Ensure your screen resolution and scaling are set correctly for accurate calibration.
